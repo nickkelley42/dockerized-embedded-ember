@@ -1,4 +1,8 @@
 <h2>This heading (and the stuff below it) comes from Ember.</h2>
-<LinkTo @route='categories'>Categories</LinkTo>
-<LinkTo @route='locations'>Locations</LinkTo>
+<navigation>
+  <ul>
+    <li><LinkTo @route='categories'>Categories</LinkTo></li>
+    <li><LinkTo @route='locations'>Locations</LinkTo></li>
+  </ul>
+</navigation>
 {{outlet}}
