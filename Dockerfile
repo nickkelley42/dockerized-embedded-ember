@@ -4,7 +4,7 @@ RUN mkdir -p /ember-subroute
 COPY ./ember-subroute /ember-subroute
 
 WORKDIR /ember-subroute
-RUN npx ember build --environment=development
+RUN npx ember build
 
 FROM nginx
 
