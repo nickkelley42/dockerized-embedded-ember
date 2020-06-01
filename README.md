@@ -11,4 +11,14 @@ Proof of concept for including an Ember app inside an existing web page
 	time, the compiled Ember app gets embedded inside the `/careers` page 
 	from the `/public/careers` directory.
 
+## Running it
 
+```
+$ ./build-and-run.sh
+```
+
+Once it's running, navigate to [localhost:80](http://localhost:80) to 
+see the site.
+
+Keep in mind that if you make changes to the code, you will have to stop 
+the server and re-run the build-and-run command.
