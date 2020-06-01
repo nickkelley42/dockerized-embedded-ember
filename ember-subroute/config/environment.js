@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-subroute',
     environment,
-    rootURL: '/',
+    rootURL: '/careers',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
