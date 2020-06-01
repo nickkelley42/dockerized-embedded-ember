@@ -8,6 +8,7 @@ module.exports = function(defaults) {
     fingerprint: {
       enabled: false,
     },
+    storeConfigInMeta: false,
   });
 
   // Use `app.import` to add additional libraries to the generated
